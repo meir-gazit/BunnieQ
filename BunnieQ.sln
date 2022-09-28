@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prsentation", "Prsentation"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patite.Domain", "Patite.Domain\Patite.Domain.csproj", "{23DE20E0-2467-4BB6-8A96-646954445F25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patite.Infra.Bus", "Patite.Infra.Bus\Patite.Infra.Bus.csproj", "{77815F66-70FA-425E-A287-5C02BC68655F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,12 +27,17 @@ Global
 		{23DE20E0-2467-4BB6-8A96-646954445F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23DE20E0-2467-4BB6-8A96-646954445F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23DE20E0-2467-4BB6-8A96-646954445F25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77815F66-70FA-425E-A287-5C02BC68655F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77815F66-70FA-425E-A287-5C02BC68655F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77815F66-70FA-425E-A287-5C02BC68655F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77815F66-70FA-425E-A287-5C02BC68655F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{23DE20E0-2467-4BB6-8A96-646954445F25} = {60CE240F-5812-4D43-AFD2-6909D408CF42}
+		{77815F66-70FA-425E-A287-5C02BC68655F} = {56A5EA82-865E-40D8-A164-523F59A83D3D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AAFA0766-0307-4989-914B-89B2F0DCA148}
