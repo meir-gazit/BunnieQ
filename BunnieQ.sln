@@ -13,9 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prsentation", "Prsentation", "{EAF8ADB2-8DCE-480D-9B4B-6CA5C14D47CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patite.Domain", "Patite.Domain\Patite.Domain.csproj", "{23DE20E0-2467-4BB6-8A96-646954445F25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patite.Domain", "Patite.Domain\Patite.Domain.csproj", "{23DE20E0-2467-4BB6-8A96-646954445F25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patite.Infra.Bus", "Patite.Infra.Bus\Patite.Infra.Bus.csproj", "{77815F66-70FA-425E-A287-5C02BC68655F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patite.Infra.Bus", "Patite.Infra.Bus\Patite.Infra.Bus.csproj", "{77815F66-70FA-425E-A287-5C02BC68655F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patite.Infra.IoC", "Patite.Infra.IoC\Patite.Infra.IoC.csproj", "{670530C8-12F9-4833-B62B-5C5CFCF55DAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{77815F66-70FA-425E-A287-5C02BC68655F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77815F66-70FA-425E-A287-5C02BC68655F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77815F66-70FA-425E-A287-5C02BC68655F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{670530C8-12F9-4833-B62B-5C5CFCF55DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{670530C8-12F9-4833-B62B-5C5CFCF55DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{670530C8-12F9-4833-B62B-5C5CFCF55DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{670530C8-12F9-4833-B62B-5C5CFCF55DAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{23DE20E0-2467-4BB6-8A96-646954445F25} = {60CE240F-5812-4D43-AFD2-6909D408CF42}
 		{77815F66-70FA-425E-A287-5C02BC68655F} = {56A5EA82-865E-40D8-A164-523F59A83D3D}
+		{670530C8-12F9-4833-B62B-5C5CFCF55DAC} = {CE778C33-E3E7-4C23-A118-255CE394E502}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AAFA0766-0307-4989-914B-89B2F0DCA148}
