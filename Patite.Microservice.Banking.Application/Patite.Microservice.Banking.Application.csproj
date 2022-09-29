@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Patite.Microservice.Banking.Domain\Patite.Microservice.Banking.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

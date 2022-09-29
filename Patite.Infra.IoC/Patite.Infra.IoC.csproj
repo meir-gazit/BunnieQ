@@ -13,6 +13,9 @@
   <ItemGroup>
     <ProjectReference Include="..\Patite.Domain\Patite.Domain.csproj" />
     <ProjectReference Include="..\Patite.Infra.Bus\Patite.Infra.Bus.csproj" />
+    <ProjectReference Include="..\Patite.Microservice.Banking.Application\Patite.Microservice.Banking.Application.csproj" />
+    <ProjectReference Include="..\Patite.Microservice.Banking.Data\Patite.Microservice.Banking.Data.csproj" />
+    <ProjectReference Include="..\Patite.Microservice.Banking.Domain\Patite.Microservice.Banking.Domain.csproj" />
   </ItemGroup>
 
 </Project>

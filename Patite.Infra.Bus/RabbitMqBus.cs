@@ -1,4 +1,4 @@
-﻿using MediatR;
+﻿//using MediatR;
 using Patite.Domain.Bus;
 using Patite.Domain.Commands;
 using Patite.Domain.Events;
@@ -8,6 +8,7 @@ using Newtonsoft.Json;
 using System.Text;
 using System.Linq;
 using RabbitMQ.Client.Events;
+using MediatR;
 
 namespace Patite.Infra.Bus
 {
