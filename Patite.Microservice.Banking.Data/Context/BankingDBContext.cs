@@ -18,7 +18,8 @@ namespace Patite.Microservice.Banking.Data.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite(@"Data Source=../DB/BankingDB.db", b => b.MigrationsAssembly("Patite.Microservice.Banking.Api"));
+            //optionsBuilder.UseSqlite(@"Data Source=../Data/DB/BankingDB.db", b => b.MigrationsAssembly("Patite.Microservice.Banking.Api"));
+            optionsBuilder.UseSqlite(@"Data Source=C:\Projects\c#\MyRabbits\Patite·Bunnie\BunnieQ\Patite.Microservice.Banking.Data\DB\BankingDB.db;");
         }
 
         public DbSet<Account> Accounts { get; set; }

@@ -14,7 +14,7 @@ builder.Services.AddMediatR(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddDbContext<BankingDBContext>(options =>
 {
-    options.UseSqlite(builder.Configuration.GetConnectionString("BankingDbConnection"));
+    options.UseSqlite(builder.Configuration.GetConnectionString("BankingDBContext"));
 
 });
 
